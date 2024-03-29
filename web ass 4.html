@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Assignment 4
+        </title>
+        <link href="web assignment.css" rel="stylesheet">
+    </head>
+    <body>
+        <fieldset>
+        <div class="do">
+        <header>
+            <div class="center-image">
+                <img src="centennial college.png" alt="BANNER" usemap="#homepage">
+            </div>
+            <map name="homepage" id="homepage">
+            <area href="https://www.centennialcollege.ca/" shape="rect" coords="2,-1,595,161">
+            </map>
+        </header>
+        <main>
+        <div class="center-text">
+            <h2>CENTENNIAL COLLEGE</h2>
+        </div>
+        <div class="center-text">
+            <h4><b>Continuing Education course/Instructor Evaluation</b></h4>
+        </div>
+        <p> Please read each statement carefully and consider each one individually.
+             Use the <strong> computer card</strong> to make your choice (use a pencil to fill in the space). 
+            Give only <strong>one answer</strong> for each question</p>
+
+            <br>
+            <label for="cn"><b>Course Name/Code: </b></label>
+            <input type="text" id="cn" name="cn">
+            <br>
+            <br>
+            <b>Semester: </b> &nbsp; 
+            <label for="fall">Fall</label>
+            <input type="radio" id="fall" name="sem">&nbsp;
+            <label for="winter">Winter</label>
+            <input type="radio" id="winter" name="sem">&nbsp;
+            <label for="s/s">Spring/Summer: </label>
+            <input type="radio" id="s/s" name="sem">&nbsp;&nbsp;
+            <label for="year"><b>Year: </b></label>
+            <input type="text" id="year" name="year"><br>
+            
+            <br>
+            <label for="inst"><b>Instructor: </b></label>
+            <input  type="text" id="inst" name="inst">
+            <h3 class="center-text in">INSTRUCTOR</h3>
+            <fieldset>
+            <p>How would you rate the instructor's: </p>
+            1. <b>Knowledge</b> of subject?<br>
+            <label for="ex">(a) Excellent </label>
+            <input type="radio" id="ex" name="know">&nbsp;
+            <label for="gd">(b) Good </label>
+            <input type="radio" id="gd" name="know">&nbsp;
+            <label for="fr">(c) Fair </label>
+            <input type="radio" id="fr" name="know">&nbsp;
+            <label for="ns">(d) Not Satisfactory </label>
+            <input type="radio" id="ns" name="know"><br>
+            <br>
+            
+            2. <b>helpfulness?</b><br>
+            <label for="ex">(a) Excellent </label>
+            <input type="radio" id="ex" name="help">&nbsp;
+            <label for="gd">(b) Good </label>
+            <input type="radio" id="gd" name="help">&nbsp;
+            <label for="fr">(c) Fair </label>
+            <input type="radio" id="fr" name="help">&nbsp;
+            <label for="ns">(d) Not Satisfactory </label>
+            <input type="radio" id="ns" name="help"><br>
+            <br>
+            3. <b>courtesy and respect </b>for all students?<br>
+            <label for="ex">(a) Excellent </label>
+            <input type="radio" id="ex" name="cr">&nbsp;
+            <label for="gd">(b) Good </label>
+            <input type="radio" id="gd" name="cr">&nbsp;
+            <label for="fr">(c) Fair </label>
+            <input type="radio" id="fr" name="cr">&nbsp;
+            <label for="ns">(d) Not Satisfactory </label>
+            <input type="radio" id="ns" name="cr"><br>
+            <br>
+            4. <b>communication </b>skills?<br>
+            <label for="ex">(a) Excellent </label>
+            <input type="radio" id="ex" name="c">&nbsp;
+            <label for="gd">(b) Good </label>
+            <input type="radio" id="gd" name="c">&nbsp;
+            <label for="fr">(c) Fair </label>
+            <input type="radio" id="fr" name="c">&nbsp;
+            <label for="ns">(d) Not Satisfactory </label>
+            <input type="radio" id="ns" name="c"><br>
+            <br>
+            5. overall <b>performance?</b><br>
+            <label for="ex">(a) Excellent </label>
+            <input type="radio" id="ex" name="p">&nbsp;
+            <label for="gd">(b) Good </label>
+            <input type="radio" id="gd" name="p">&nbsp;
+            <label for="fr">(c) Fair </label>
+            <input type="radio" id="fr" name="p">&nbsp;
+            <label for="ns">(d) Not Satisfactory </label>
+            <input type="radio" id="ns" name="p"><br>
+            <br>
+        </fieldset>
+        <h3 class="center-text in">COURSE</h3>
+        <fieldset>
+        <p>6. How would you rate the <b>course materials?</b></p> &nbsp;
+        <input list="exp">
+        <datalist id="exp">
+            <option value="Excellent">(a) Excellent</option>
+            <option value="Good">(b) Good</option>
+            <option value="Fair">(c) Fair</option>
+            <option value="Not satisfactory">(d) Not Satisfactory</option>  
+        </datalist>
+        <br>
+        <p>7. How much did this course meet your <b>expectation ?</b></p> &nbsp;
+        <input list="exp">
+        <datalist id="exp">
+            <option value="Excellent">(a) Excellent</option>
+            <option value="Good">(b) Good</option>
+            <option value="Fair">(c) Fair</option>
+            <option value="Not satisfactory">(d) Not Satisfactory</option>  
+        </datalist>
+        <br>
+        <p>8. How would you rate this course<b>(overall)?</b></p> &nbsp;
+        <input list="exp">
+        <datalist id="exp">
+            <option value="Excellent">(a) Excellent</option>
+            <option value="Good">(b) Good</option>
+            <option value="Fair">(c) Fair</option>
+            <option value="Not satisfactory">(d) Not Satisfactory</option>  
+        </datalist>
+        <br>
+    </fieldset>
+    <h3 class="center-text in">GENERAL INFORMATION </h3>
+    <fieldset>
+    <p>9. Was the <b>course outline</b> reviewed/explained at the beginning of your course ?</p>
+    <label for="ex">(a) Excellent </label >
+    <input type="radio" id="ex" name="course">&nbsp;
+    <label for="gd">(b) Good </label>
+    <input type="radio" id="gd" name="course">&nbsp;
+    <label for="fr">(c) Fair </label>
+    <input type="radio" id="fr" name="course">&nbsp;
+    <label for="ns">(d) Not Satisfactory </label>
+    <input type="radio" id="ns" name="course"><br>
+    <br>
+    <p>10. Would you <b>recommend</b> this course to a friend with the same interest? </p>
+    <label for="ex">(a) Excellent </label >
+    <input type="radio" id="ex" name="rec">&nbsp;
+    <label for="gd">(b) Good </label>
+    <input type="radio" id="gd" name="rec">&nbsp;
+    <label for="fr">(c) Fair </label>
+    <input type="radio" id="fr" name="rec">&nbsp;
+    <label for="ns">(d) Not Satisfactory </label>
+    <input type="radio" id="ns" name="rec"><br>
+    <br>
+    </fieldset>
+    <p class="ac"><b>ANY OTHER COMMENTS </b>( please use the back of the computer card or this paper if necessary)</p>
+    <label for="bt">11. What is the<b> best thing</b> about this course? </label>
+    <input type="text" id="bt" name="bt"><br>
+    <br>
+    <label for="i"> 12. How could we <b>improve</b> this course? </label>
+    <input type="text" id="i" name="i">
+    <br>
+    <p>13. Other: </p> &nbsp;
+    <textarea name="other" rows="10" cols="100"></textarea>
+    <br>
+    <input type="submit">
+    <br>
+    <footer>
+        <p class="center-text"><i>Thank you! we pay attention to your feedback!</i></p>
+        <div class="center">
+            <i>
+                Web: <a href="https://www.centennialcollege.ca/">www.centennialcollege.ca/continuing education</a>
+                &nbsp; &nbsp;
+                Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+            </i>
+        </div>
+        <p><a href="https://github.com/Larissa0801/Assignment-4.git">Assignment 4 on github </a></p>
+    </footer>
+</div>
+</main>
+</fieldset>
+</body>
+</html>
+
